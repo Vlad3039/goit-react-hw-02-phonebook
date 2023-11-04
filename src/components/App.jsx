@@ -1,13 +1,13 @@
 import Notiflix from 'notiflix';
 
-import Component from 'react';
-import nanoid from 'nanoid';
-import Box from './Box';
-import Boxitem from './ContactsList/ContactList.styled';
+import { Component } from 'react';
+import { nanoid } from 'nanoid';
+import { Box } from './Box/Box';
+import { Boxitem } from './ContactsList/ContactList.styled';
 
-import { ContactForm } from './Form';
-import Filter from './Filter';
-import ContactList from './ContactsList';
+import { ContactForm } from './Form/Form';
+import { Filter } from './Filter/Filter';
+import { ContactList } from './ContactsList/ContactList';
 
 export class App extends Component {
   state = {

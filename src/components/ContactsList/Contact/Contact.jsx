@@ -1,4 +1,4 @@
-import { Button } from './ContactList.styled';
+import { Button } from '../ContactList.styled';
 
 export const Contact = ({ id, name, number, onDeleteContact }) => {
   return (
